@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement - Workshop Tech</title>
+    <link rel="stylesheet" href="tp11.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2>Paiement en Ligne</h2>
+        <p>Finalisez votre inscription</p>
+
+        <form>
+            <label>Nom :</label>
+            <input type="text" placeholder="Nom complet" required>
+
+            <label>Email :</label>
+            <input type="email" placeholder="votre@email.com" required>
+
+            <div class="payment-group">
+                <label>Mode de paiement :</label>
+                <div class="options">
+                    <label class="radio-btn"><input type="radio" name="pay" checked> Visa</label>
+                    <label class="radio-btn"><input type="radio" name="pay"> MasterCard</label>
+                    <label class="radio-btn"><input type="radio" name="pay"> PayPal</label>
+                </div>
+            </div>
+
+            <label>Numéro de carte :</label>
+            <input type="text" placeholder="1234 5678 9101 1121">
+
+            <div class="row">
+                <div class="col">
+                    <label>Expiration :</label>
+                    <input type="text" placeholder="MM/AA">
+                </div>
+                <div class="col">
+                    <label>CVV :</label>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+
+            <button type="submit">Payer</button>
+        </form>
+
+        <div class="footer">© 2026 - Workshop Tech</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+#margin-box {
+    width: 650px;
+    height: 380px;
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#border-box {
+    width: 550px;
+    height: 280px;
+    background-color: fuchsia;
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#padding-box { 
+    width: 450px;
+    height: 180px; 
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content-box {
+    width: 200px;
+    height: 95px; 
+    background-color: plum;
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
